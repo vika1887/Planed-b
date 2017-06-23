@@ -1,0 +1,82 @@
+@media (min-width: 1200px) {
+  .carousel-caption {
+    h3 {
+
+    }
+
+    p {
+
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .home-blog {
+    &-item {
+      padding: 0;
+
+      &__image {
+        padding: 0;
+      }
+    }
+  }
+
+  .navbar-inverse {
+    .navbar-nav > li > a {
+      padding-top: 25px;
+      padding-bottom: 20px;
+      transition: 0.25s;
+    }
+  }
+
+  .navbar-transparent {
+    .navbar-nav > li > a {
+      padding-top: 15px;
+      padding-bottom: 7px;
+    }
+  }
+}
+
+
+@media (max-width: 767px) {
+  .home-blog {
+    &-item {
+
+
+      &__image {
+
+      }
+
+      &__excerpt {
+
+      }
+    }
+  }
+
+  .navbar-inverse {
+
+  }
+}
+
+
+@media (min-aspect-ratio: 2/1) and (max-aspect-ratio: 3/1) {
+  .carousel-inner > .item {
+    img {
+
+    }
+  }
+}
+
+
+@media (max-aspect-ratio: 1920/1200) {
+  .carousel-inner > .item {
+    img {
+
+    }
+  }
+
+  .header-carousel-item__image {
+
+  }
+}

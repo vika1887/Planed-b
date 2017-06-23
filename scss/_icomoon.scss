@@ -1,0 +1,25 @@
+.icon {
+  font-size: 25px;
+  color: $light-color;
+}
+.home-icons {
+  display: flex;
+  margin: 30px auto;
+  padding: 50px;
+  width: 60px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid $light-color;
+  border-radius: 100%;
+
+  &:hover {
+    background-color: $light-color;
+    .icon {
+      color: $text-color;
+    }
+    + .home-icons__title {
+      color: $light-color;
+    }
+  }
+}

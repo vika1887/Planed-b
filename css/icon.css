@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/font_icomoon/icomoon.eot?51uq3m');
+  src:  url('../fonts/font_icomoon/icomoon.eot?51uq3m#iefix') format('embedded-opentype'),
+    url('../fonts/font_icomoon/icomoon.ttf?51uq3m') format('truetype'),
+    url('../fonts/font_icomoon/icomoon.woff?51uq3m') format('woff'),
+    url('../fonts/font_icomoon/icomoon.svg?51uq3m#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #87d37c;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-21:before {
+  content: "\e900";
+}
+.icon-1:before {
+  content: "\e901";
+}
+.icon-3:before {
+  content: "\e902";
+}
+.icon-12:before {
+  content: "\e903";
+}
+.icon-6:before {
+  content: "\e904";
+}
+.icon-rCZa501:before {
+  content: "\e905";
+}
+
+
+.icon-search:before {
+  content: "\e986";
+  color: white;
+  position: relative;
+  margin-left: 1000px;
+  margin-bottom: 20px;
+}
+

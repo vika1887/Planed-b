@@ -1,0 +1,122 @@
+
+.page-header {
+  background-image: url("../image/bg/bg1.png");
+}
+
+.page-header {
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: medium none;
+}
+
+.sb-search {
+  position: relative;
+  top: 7px;
+  float: right;
+  width: 0;
+  min-width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: width 0.3s;
+     -moz-transition: width 0.3s;
+          transition: width 0.3s;
+  -webkit-backface-visibility: hidden;
+}
+
+.sb-search-input {
+  position: absolute;
+  top: -1px;
+  right: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 20px 65px 20px 20px;
+  width: 100%;
+  height: 40px;
+  font-family: inherit;
+  font-size: 10px;
+  color: #2c3e50;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.sb-search-input::-webkit-input-placeholder {
+  color: #222222;
+}
+.sb-search-input:-moz-placeholder {
+  color: #222222;
+}
+.sb-search-input::-moz-placeholder {
+  color: #222222;
+}
+.sb-search-input:-ms-input-placeholder {
+  color: #222222;
+}
+
+.sb-icon-search,
+.sb-search-submit {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.sb-search-submit {
+  z-index: -1;
+  color: transparent;
+  background: transparent; /* для IE */
+  border: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+      filter: alpha(opacity=0); /* IE 5-7 */
+  outline: none;
+  opacity: 0;
+}
+
+.sb-icon-search {
+  top: 0;
+  z-index: 90;
+  font-size: 22px;
+  font-family: 'icomoon';
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  background: transparent;
+  speak: none;
+}
+
+.sb-icon-search:before {
+  content: "\e000";
+}
+
+.sb-search.sb-search-open,
+.no-js .sb-search {
+  top: 7px;
+  width: 20%;
+  background: #87d37c;
+}
+
+.sb-search.sb-search-open .sb-icon-search,
+ .no-js .sb-search .sb-icon-search {
+   z-index: 11;
+   color: #fff;
+   background: transparent;
+ }
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+  z-index: 90;
+}
+
+
+

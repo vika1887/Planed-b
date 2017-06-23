@@ -1,0 +1,20 @@
+
+@mixin block-nav {
+  color: $text-color;
+  background-color: $dark-color;
+}
+
+@mixin block-gallery{
+  -webkit-transform: translateX(0);
+     -moz-transform: translateX(0);
+       -o-transform: translateX(0);
+          transform: translateX(0);
+  visibility:visible;
+}
+
+@mixin transition {
+  -webkit-transition: all 0.4s ease-out;
+     -moz-transition: all 0.4s ease-out;
+       -o-transition: all 0.4s ease-out;
+          transition: all 0.4s ease-out;
+}
